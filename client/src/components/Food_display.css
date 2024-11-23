@@ -1,0 +1,19 @@
+.coffee_list{
+  width:100%;
+}
+.coffee_list hr {
+  margin:50px 0 30px;
+}
+
+.coffee_list h2 {
+  font-size: max(2vw, 24px);
+  font-weight: 600;
+}
+
+.coffee_list_display{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(240px,1.5fr));
+  margin-top:30px;
+  gap:30px;
+  row-gap: 50px;
+}

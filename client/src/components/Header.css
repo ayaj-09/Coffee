@@ -1,0 +1,32 @@
+.header {
+  color:white;
+  height:34vw;
+  margin: 30px auto;
+  background:url('../../bannerImage.jpg') no-repeat;
+  border-radius: 50px;;
+  background-size:cover;
+  position: relative;
+
+}
+
+.header-content{
+  position:absolute;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.5vw;
+  max-width:50%;
+  bottom:10%;
+  right: 2vw;
+  animation: fadeIn 3s;
+}
+
+.header-content h2{
+  font-weight: 500;
+  font-size:max(4.5vw,22px);
+}
+
+.header-content p{
+  font-size:1.2vw;
+}
+

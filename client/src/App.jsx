@@ -12,6 +12,7 @@ import Myorders from "./pages/myOrders/Myorders"
 
 const App = () => {
   const [showPopup,setShowPopup] = useState(false)
+  document.documentElement.style.overflow=showPopup?'hidden':''
   return (
     <>
     <ToastContainer/>

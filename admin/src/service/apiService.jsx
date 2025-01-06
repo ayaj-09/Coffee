@@ -1,7 +1,7 @@
 import axios from "axios"
 
 
-const URL = 'http://localhost:3001'
+const URL = 'https://coffee-fnqm.onrender.com'
 const addItem = async(data) => {
   return await axios.post(URL+'/api/coffee',data)
 }

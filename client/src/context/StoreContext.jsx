@@ -9,7 +9,7 @@ const StoreContextProvider = (props) => {
   const [coffee_list,setCoffee_list] = useState([])
   const [allOrders,setAllOrders] = useState([])
 
-  const url = 'http://localhost:3001'
+  const url = 'https://coffee-fnqm.onrender.com'
 
   const addToCart = async(itemId) => {
     let obj = cartItem 

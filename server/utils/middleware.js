@@ -19,11 +19,9 @@ const tokenDecoder = (req,res,next) => {
     if(token.includes('Bearer ')){
       token = token.replace('Bearer ','')
     }
-    
-    console.log(token)
-    console.log(jwt.verify(token,config.SECRET))
+  
     const decode = jwt.verify(token,config.SECRET)
-    console.log(decode)
+    
     req.user = decode
     next()
   
